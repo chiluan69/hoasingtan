@@ -300,9 +300,9 @@ figure {
     margin: 0 0 1rem
 }
 
-img,
-svg {
-    vertical-align: middle
+img, svg {
+    vertical-align: middle;
+    margin-right: .5em !important;
 }
 
 table {
@@ -7763,6 +7763,9 @@ fieldset:disabled .btn {
 .me-3 {
     margin-right: 1rem !important
 }
+/* .img {
+    margin-right: 1.5rem !important
+} */
 
 .me-4 {
     margin-right: 1.5rem !important
