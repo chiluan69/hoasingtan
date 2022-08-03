@@ -81,7 +81,7 @@ h6,
 .h6 {
     margin-top: 0;
     margin-bottom: .5rem;
-    font-family: "Nunito", sans-serif;
+    font-family: "Source Sans Pro";
     font-weight: 700;
     line-height: 1.2;
     color: #181d38
@@ -516,11 +516,12 @@ progress {
     font-size: calc(1.525rem + 3.3vw);
     font-weight: 800;
     line-height: 1.2
+    
 }
 
 @media (min-width: 1200px) {
     .display-3 {
-        font-size: 4rem
+        font-size: 3rem
     }
 }
 
@@ -7499,11 +7500,15 @@ fieldset:disabled .btn {
 }
 
 .justify-content-start {
-    justify-content: flex-start !important
+    justify-content: flex-start !important;
+    text-align: center;
+
 }
 
 .justify-content-end {
-    justify-content: flex-end !important
+    justify-content: flex-end !important;
+    text-align: center;
+    
 }
 
 .justify-content-center {
