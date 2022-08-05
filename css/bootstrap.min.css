@@ -56,15 +56,16 @@ body {
 }
 
 hr {
-    margin: 1rem 0;
+    margin: 1.5rem 0;
     color: inherit;
     background-color: currentColor;
     border: 0;
-    opacity: .25
+    
+    color: var(--bs-white);
 }
 
 hr:not([size]) {
-    height: 1px
+    height: 3px
 }
 
 h1,
@@ -80,15 +81,17 @@ h5,
 h6,
 .h6 {
     margin-top: 0;
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
     font-family: "Source Sans Pro";
-    font-weight: 700;
-    line-height: 1.2;
-    color: #181d38
+    font-weight: 400;
+    /* line-height: 50.28px; */
+    color: #ffffff;
+    
 }
 
 h1,
 .h1 {
+    color:#000;
     font-size: calc(1.375rem + 1.5vw)
 }
 
@@ -515,8 +518,9 @@ progress {
 .display-3 {
     font-size: calc(1.525rem + 3.3vw);
     font-weight: 800;
-    line-height: 1.2
+    line-height: 1.2;
     
+    margin-top: 130px;
 }
 
 @media (min-width: 1200px) {
@@ -581,7 +585,7 @@ progress {
 
 .initialism {
     font-size: .875em;
-    text-transform: uppercase
+    text-transform: none
 }
 
 .blockquote {
@@ -669,7 +673,7 @@ progress {
     .container-sm,
     .container-md,
     .container-lg {
-        max-width: 960px
+        max-width: 1050px
     }
 }
 
@@ -704,6 +708,12 @@ progress {
     margin-top: calc(var(--bs-gutter-y) * -1);
     margin-right: calc(var(--bs-gutter-x) / -2);
     margin-left: calc(var(--bs-gutter-x) / -2)
+}
+.hehe{
+    
+    display: flex;
+    flex-direction: row;
+        
 }
 
 .row>* {
@@ -1204,7 +1214,7 @@ progress {
 
     .col-md-5 {
         flex: 0 0 auto;
-        width: 41.66667%
+        width: 43.66667%
     }
 
     .col-md-6 {
@@ -7172,7 +7182,7 @@ fieldset:disabled .btn {
 }
 
 .shadow {
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important
+    box-shadow: 0 0.1rem 1rem rgb(235 149 0) !important;
 }
 
 .shadow-sm {
@@ -7222,6 +7232,7 @@ fieldset:disabled .btn {
 .bottom-0 {
     bottom: 0 !important
 }
+
 
 .bottom-50 {
     bottom: 50% !important
@@ -7297,7 +7308,9 @@ fieldset:disabled .btn {
 
 .border-bottom-0 {
     border-bottom: 0 !important
+    
 }
+
 
 .border-start {
     border-left: 1px solid #dee2e6 !important
@@ -7628,7 +7641,7 @@ fieldset:disabled .btn {
 }
 
 .m-0 {
-    margin: 0 !important
+    margin: 0 !important;
 }
 
 .m-1 {
@@ -7741,6 +7754,10 @@ fieldset:disabled .btn {
     margin-top: 1rem !important
 }
 
+.H {
+    width: 500px;
+    height: 450px;
+}
 .mt-4 {
     margin-top: 1.5rem !important
 }
@@ -7797,7 +7814,13 @@ fieldset:disabled .btn {
 }
 
 .mb-3 {
+    color: black;
     margin-bottom: 1rem !important
+    
+}
+.text-new{
+    color: #000;
+    font-weight: 400;
 }
 
 .mb-4 {
@@ -8031,7 +8054,8 @@ fieldset:disabled .btn {
 
 .px-3 {
     padding-right: 1rem !important;
-    padding-left: 1rem !important
+    padding-left: 1rem !important;
+    background-color: var(--bs-warning);
 }
 
 .px-4 {
@@ -8267,15 +8291,15 @@ fieldset:disabled .btn {
 }
 
 .text-lowercase {
-    text-transform: lowercase !important
+    text-transform: none !important
 }
 
 .text-uppercase {
-    text-transform: uppercase !important
+    text-transform: none !important
 }
 
 .text-capitalize {
-    text-transform: capitalize !important
+    text-transform: none !important
 }
 
 .text-wrap {
@@ -8292,7 +8316,10 @@ fieldset:disabled .btn {
 }
 
 .text-primary {
-    color: #eb9500 !important
+    color: #EB9500 !important
+}
+.color-hoi-ky{
+    color: #000;
 }
 
 .text-secondary {
@@ -8376,7 +8403,7 @@ fieldset:disabled .btn {
 }
 
 .bg-dark {
-    background-color: #181d38 !important
+    background-color: #EB9500 !important
 }
 
 .bg-body {
@@ -8386,6 +8413,11 @@ fieldset:disabled .btn {
 .bg-white {
     background-color: #fff !important
 }
+.ha {
+    background-color: var(--bs-yellow);
+}
+
+
 
 .bg-transparent {
     background-color: rgba(0, 0, 0, 0) !important
