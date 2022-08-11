@@ -85,8 +85,16 @@ h6,
     font-family: "Source Sans Pro";
     font-weight: 400;
     /* line-height: 50.28px; */
-    color: #ffffff;
+    color: #000000;
     
+}
+.text-khoa-hoc{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: sans-serif;
+    font-weight: 522;
+    /* line-height: 50.28px; */
+    color: #ffffff;
 }
 
 h1,
@@ -3093,20 +3101,30 @@ fieldset:disabled .btn {
 
 .btn-primary {
     color: #000;
-    background-color: #06BBCC;
-    border-color: #06BBCC
+    background-color: #fee000b1;
+    border-color: #ffffff
+}
+.btn-primary-1 {
+    color: rgb(255, 255, 255);
+    background-color: #fee000b1;
+    border-color: #ffffff
+}
+.btn-primary-1:hover {
+    color: rgb(0, 0, 0);
+    background-color: #ffe100;
+    border-color: #ffffff
 }
 
 .btn-primary:hover {
     color: #000;
-    background-color: #2bc5d4;
-    border-color: #1fc2d1
+    background-color: #ffe100;
+    border-color: #ffffff
 }
 
 .btn-check:focus+.btn-primary,
 .btn-primary:focus {
     color: #000;
-    background-color: #2bc5d4;
+    background-color: #a2f900;
     border-color: #1fc2d1;
     box-shadow: 0 0 0 .25rem rgba(5, 159, 173, 0.5)
 }
@@ -3117,7 +3135,7 @@ fieldset:disabled .btn {
 .btn-primary.active,
 .show>.btn-primary.dropdown-toggle {
     color: #000;
-    background-color: #38c9d6;
+    background-color: #38d650;
     border-color: #1fc2d1
 }
 
@@ -3126,13 +3144,13 @@ fieldset:disabled .btn {
 .btn-primary:active:focus,
 .btn-primary.active:focus,
 .show>.btn-primary.dropdown-toggle:focus {
-    box-shadow: 0 0 0 .25rem rgba(5, 159, 173, 0.5)
+    box-shadow: 0 0 0 .25rem rgba(41, 173, 5, 0.5)
 }
 
 .btn-primary:disabled,
 .btn-primary.disabled {
     color: #000;
-    background-color: #06BBCC;
+    background-color: #29ee0f;
     border-color: #06BBCC
 }
 
@@ -7527,7 +7545,14 @@ fieldset:disabled .btn {
 .justify-content-center {
     justify-content: center !important
 }
-
+.jus-color{
+    color: #000;
+}
+.colo {
+    color: #EB9500;
+    Stroke: Solid;
+    height: 6px;
+}
 .justify-content-between {
     justify-content: space-between !important
 }
@@ -7642,6 +7667,7 @@ fieldset:disabled .btn {
 
 .m-0 {
     margin: 0 !important;
+    color: var(--bs-white);
 }
 
 .m-1 {
@@ -8030,7 +8056,7 @@ fieldset:disabled .btn {
 }
 
 .p-4 {
-    padding: 1.5rem !important
+    padding: -0.5rem !important
 }
 
 .p-5 {
@@ -8322,6 +8348,7 @@ fieldset:disabled .btn {
     color: #000;
 }
 
+
 .text-secondary {
     color: #6c757d !important
 }
@@ -8399,7 +8426,7 @@ fieldset:disabled .btn {
 }
 
 .bg-light {
-    background-color: #F0FBFC !important
+    background: linear-gradient(to bottom, var(--bs-yellow) 70%, #f8f9fa 100%) !important
 }
 
 .bg-dark {
