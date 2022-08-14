@@ -530,6 +530,12 @@ progress {
     
     margin-top: 130px;
 }
+.display-tin-tuc {
+    font-size: calc(1.375rem + 1.5vw);
+    font-weight: 800;
+    margin-top: 40px;
+    margin-left: 5%;
+}
 
 @media (min-width: 1200px) {
     .display-3 {
@@ -7668,6 +7674,10 @@ fieldset:disabled .btn {
 .m-0 {
     margin: 0 !important;
     color: var(--bs-white);
+}
+.tin-tuc-1 {
+    margin: 0 !important;
+    color: black;
 }
 
 .m-1 {

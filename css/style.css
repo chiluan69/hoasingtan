@@ -224,26 +224,51 @@
     /* height: 550px; */
 }
 .page-header-1 {
-    background: linear-gradient(rgba(24, 29, 56, 0), rgba(24, 29, 56, 0)), url(../img/khoa-hoc-tai-chinh.png);
+    background: linear-gradient(rgba(24, 29, 56, 0), rgba(24, 29, 56, 0)), url(../img/banner-background-daotao.jpg);
     background-position: center center;
     background-repeat: repeat;
-    background-size: contain;
-    /* height: 550px; */
+    background-size: cover;
+    height: 550px;
 }
 .page-header-2 {
     background: linear-gradient(rgba(24, 29, 56, 0), rgba(24, 29, 56, 0)), url(../img/background-tin-tuc.png);
     background-position: center center;
     background-repeat: repeat;
     background-size: contain;
-    /* height: 550px; */
+    height: 500px;
 }
-.page-header-3 {
-    background: linear-gradient(rgba(24, 29, 56, 0), rgba(24, 29, 56, 0)), url(../img/background-tin-tuc.png);
+.page-header-hoi-thao{
+    background: linear-gradient(rgba(24, 29, 56, 0), rgba(24, 29, 56, 0)), url(../img/background-hoi-thao.png);
     background-position: center center;
     background-repeat: repeat;
     background-size: contain;
-    /* height: 550px; */
+    height: 500px;
 }
+.page-header-lien-he {
+    background: linear-gradient(rgba(24, 29, 56, 0), rgba(24, 29, 56, 0)), url(../img/banner-lien-he.png);
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.topnav {
+  overflow: hidden;
+  margin-left: 5%;
+}
+
+.topnav a  {
+  float: left;
+  background-color: var(--hst); 
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #ffffff;
+  margin-left: 2px;
+}
+
+
 
 
 /* header */
@@ -390,6 +415,15 @@
     word-wrap: break-word;
     color: var(--hst);
 }
+.section-header-lien-he h2 {
+    color: var(--hst);
+    text-align: center;
+}
+.text-lien-he{
+    text-align: center;
+    color: var(--hst);
+}
+
 
 .section-title.text-start::before {
     width: calc(100% + 40px);
