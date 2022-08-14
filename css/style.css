@@ -22,6 +22,7 @@
     right: 50px;
     bottom: 45px;
     z-index: 99;
+    
 }
 
 
@@ -216,7 +217,7 @@
 }
 
 .page-header {
-    background: linear-gradient(rgba(24, 29, 56, 0), rgba(24, 29, 56, 0)), url(../img/banner-gioi-thieu.png);
+    background: linear-gradient(rgba(96, 97, 100, 0), rgba(103, 110, 150, 0.409)), url(../img/banner-gioi-thieu.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -224,18 +225,18 @@
     /* height: 550px; */
 }
 .page-header-1 {
-    background: linear-gradient(rgba(24, 29, 56, 0), rgba(24, 29, 56, 0)), url(../img/banner-background-daotao.jpg);
+    background: linear-gradient(rgba(24, 29, 56, 0), rgba(160, 171, 235, 0.379)), url(../img/dao-tao.jpg);
     background-position: center center;
     background-repeat: repeat;
     background-size: cover;
-    height: 550px;
+    height: 500px;
 }
 .page-header-2 {
-    background: linear-gradient(rgba(24, 29, 56, 0), rgba(24, 29, 56, 0)), url(../img/background-tin-tuc.png);
+    background: linear-gradient(rgba(24, 29, 56, 0), rgba(24, 29, 56, 0.459)), url(../img/tin-tuc.jpg);
     background-position: center center;
     background-repeat: repeat;
-    background-size: contain;
-    height: 500px;
+    background-size: cover;
+    height: 510px;
 }
 .page-header-hoi-thao{
     background: linear-gradient(rgba(24, 29, 56, 0), rgba(24, 29, 56, 0)), url(../img/background-hoi-thao.png);
@@ -263,7 +264,7 @@
   text-align: center;
   padding: 16px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 15px;
   color: #ffffff;
   margin-left: 2px;
 }
@@ -351,6 +352,33 @@
     display: inline-block;
     text-transform: uppercase;
 }
+.section-title-dao-tao{
+        position: relative;
+        display: inline-block;
+        text-transform: uppercase;
+        padding-bottom: 3rem !important;
+}
+.section-title-dao-tao::before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 80px);
+    height: 2px;
+    top: 17px;
+    left: -40px;
+    background: var(--hst);
+    z-index: -1;
+}
+
+.section-title-dao-tao::after {
+    position: absolute;
+    content: "";
+    width: calc(100% + 120px);
+    height: 2px;
+    bottom: 59px;
+    left: -60px;
+    background: var(--hst);
+    z-index: -1;
+}
 
 .section-title::before {
     position: absolute;
@@ -372,6 +400,12 @@
     left: -60px;
     background: var(--hst);
     z-index: -1;
+}
+.content-dao-tao p{
+    font-weight: 500;
+    font-size: 30px;
+    font-family: 'Source Sans Pro', ;
+    text-transform: uppercase;
 }
 
 /* gioi thieu */
