@@ -7157,6 +7157,11 @@ fieldset:disabled .btn {
 .overflow-hidden {
     overflow: hidden !important
 }
+.overflow-hidden-1 {
+    
+    overflow: hidden !important
+    
+}
 
 .overflow-visible {
     overflow: visible !important
@@ -7448,7 +7453,12 @@ fieldset:disabled .btn {
 .h-100 {
     height: 100% !important
 }
-
+.h-100-gioithieu {
+    height: 96% !important
+}
+.h-100-gioithieu-1 {
+    height: 96% !important
+}
 .h-auto {
     height: auto !important
 }
@@ -7844,6 +7854,7 @@ fieldset:disabled .btn {
     margin-bottom: 0 !important
 }
 
+
 .mb-1 {
     margin-bottom: .25rem !important
 }
@@ -7866,6 +7877,9 @@ fieldset:disabled .btn {
 
 .mb-4 {
     margin-bottom: 1.5rem !important
+}
+.mb-4-gioithieu {
+    margin-bottom: 0.5rem !important
 }
 
 .mb-5 {
@@ -8099,6 +8113,7 @@ fieldset:disabled .btn {
     background-color: var(--bs-warning);
 }
 
+
 .px-4 {
     padding-right: 1.5rem !important;
     padding-left: 1.5rem !important
@@ -8141,6 +8156,10 @@ fieldset:disabled .btn {
 .py-5-1 {
     padding-top: 1rem !important;
     padding-bottom: 3rem !important
+}
+.py-5-gioithieu {
+    padding-top: 1rem !important;
+    padding-bottom: 0rem !important
 }
 
 .pt-0 {
@@ -8322,6 +8341,12 @@ fieldset:disabled .btn {
 .text-center {
     text-align: center !important
 }
+.text-center p{
+    font-weight: 700;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    text-align: center !important
+}
 
 .text-decoration-none {
     text-decoration: none !important
@@ -8445,9 +8470,14 @@ fieldset:disabled .btn {
 }
 
 .bg-light {
-    background: linear-gradient(to bottom, var(--bs-yellow) 70%, #f8f9fa 100%) !important
+    background: linear-gradient(to bottom, #fad874bf 60%, #fad874bf 90%) !important
 }
-
+.bg-light-ok {
+    background: linear-gradient(to bottom, #f8f9fa00 70%, #f8f9fa00 100%) !important
+}
+.bg-light-1 {
+    background: linear-gradient(to bottom, #ffeabd 93%, #fad874bf  90%) !important
+}
 .bg-dark {
     background-color: #EB9500 !important
 }
